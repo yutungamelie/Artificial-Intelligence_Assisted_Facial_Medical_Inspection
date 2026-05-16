@@ -14,7 +14,7 @@ Instead of framing the system as an automated diagnostic tool, I designed it as 
 本作品整理自台大醫院家醫科 AI 輔助慢性病管理 pilot study，目標是探索多模態臨床資料是否能支援慢性病患者的認知風險早期篩檢。作品重點不是宣稱 AI 可取代醫師診斷，而是將模型設計成臨床決策支援流程：輸出認知風險訊號、估計預測不確定性、提供可解釋的關鍵因子，並將高風險或低信心個案導向人工審核。
 
 ## Core skills shown:
-Clinical AI
+Clinical AI //
 Multimodal data preprocessing
 Tabular modeling
 Image representation learning
