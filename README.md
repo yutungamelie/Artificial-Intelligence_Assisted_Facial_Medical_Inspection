@@ -1,7 +1,7 @@
 # Risk-Aware Clinical AI Screening System for Cognitive Function
 # 具風險意識的臨床 AI 認知功能早期篩檢系統
 ## A multimodal AI pipeline for cognitive-risk prediction, uncertainty estimation, and human-in-the-loop triage.
-標題(中英文標題)、副標題、專案簡介+我負責的內容(中英文)、repository架構
+
 
 本專案來自臺大醫院家庭醫學部慢性病管理前瞻性研究(pilot study)，目標是在遠距醫療與行動健康照護的情境下，利用臉部／舌頭影像、生理檢測、心理行為問卷與認知測驗資料，探索 AI 是否能協助醫師進行慢性病與認知風險的早期篩檢。原始研究計畫明確設定要收集門診病人的多模態資料，包括病歷與生理測量、慢性病臨床指標、臉與舌部照片、MRI/MRS 腦影像、心智功能評估等五大類資料，並訓練深度神經網路輔助遠端判斷慢性病狀態。
 我的角色是在這個 pilot study 中，將臨床研究問題轉換成可執行的資料科學與 AI pipeline：包含：多模態資料蒐集、影像前處理、tabular data 清理、相關性結構探索、模型實驗、預測目標重定義、後續把模型輸出轉換成風險分層與不確定性決策規則、(草擬應用到硬體系統Jetson Nano)。
