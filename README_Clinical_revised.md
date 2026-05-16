@@ -27,49 +27,61 @@ My contributions focused on translating the clinical research question into an e
 ```text
 risk-aware-clinical-ai-screening/
 ├── README.md
-│   └── Project overview, contribution summary, and repository guide
 │
 ├── docs/
 │   ├── clinical_problem_framing.md
-│   ├── data_dictionary.md
-│   ├── model_card.md
-│   ├── risk_policy.md
-│   └── ethics_and_privacy_note.md
+│   ├── multimodal_data_pipeline.md
+│   ├── image_preprocessing_notes.md
+│   ├── tabular_data_preprocessing.md
+│   ├── modeling_strategy.md
+│   ├── uncertainty_triage_policy.md
+│   ├── explainability_and_model_interpretation.md
+│   ├── causal_inference_future_direction.md
+│   ├── edge_deployment_notes.md
+│   └── ethics_privacy_and_limitations.md
 │
-├── data/
-│   ├── README.md
-│   └── synthetic_examples/
-│       └── demo_patient_records.csv
-│
-├── notebooks/
-│   ├── 01_tabular_data_cleaning.ipynb
-│   ├── 02_correlation_exploration.ipynb
-│   ├── 03_tabular_modeling_moca_prediction.ipynb
-│   └── 04_uncertainty_and_risk_layer.ipynb
+├── examples/
+│   ├── synthetic_patient_input_schema.json
+│   ├── synthetic_patient_examples.csv
+│   ├── sample_risk_outputs.json
+│   └── sample_triage_cases.md
 │
 ├── src/
-│   ├── preprocessing/
-│   │   ├── image_preprocessing.py
-│   │   └── tabular_preprocessing.py
+│   ├── data_preprocessing/
+│   │   ├── tabular_cleaning.py
+│   │   ├── variable_filtering.py
+│   │   └── correlation_grouping.py
+│   │
+│   ├── image_preprocessing/
+│   │   ├── face_crop_quality_check.py
+│   │   ├── tongue_image_preprocessing.py
+│   │   └── lighting_metadata_parser.py
 │   │
 │   ├── modeling/
-│   │   ├── train_tabular_model.py
-│   │   ├── evaluate_model.py
-│   │   └── explainability.py
+│   │   ├── tabular_moca_prediction.py
+│   │   ├── image_feature_extraction.py
+│   │   └── physiological_target_prediction.py
 │   │
-│   └── risk_layer/
-│       ├── uncertainty_estimation.py
-│       ├── risk_stratification.py
-│       └── human_review_policy.py
+│   ├── risk_triage/
+│   │   ├── cognitive_risk_score.py
+│   │   ├── uncertainty_score.py
+│   │   └── clinical_triage_rule.py
+│   │
+│   └── evaluation/
+│       ├── bootstrap_ci.py
+│       ├── model_agreement_check.py
+│       └── error_analysis.py
 │
 ├── reports/
-│   ├── error_analysis.md
-│   ├── model_comparison.md
-│   └── limitations.md
+│   ├── pilot_study_summary.md
+│   ├── tabular_model_findings.md
+│   ├── image_to_physiology_findings.md
+│   ├── uncertainty_extension_proposal.md
+│   └── portfolio_reflection.md
 │
 ├── demo/
 │   ├── screenshots/
-│   └── synthetic_patient_risk_dashboard.md
+│   └── demo_video_link.md
 │
 ├── requirements.txt
 └── LICENSE
