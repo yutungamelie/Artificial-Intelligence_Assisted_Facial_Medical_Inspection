@@ -14,52 +14,98 @@ Instead of framing the system as an automated diagnostic tool, I designed it as 
 本作品整理自台大醫院家醫科 AI 輔助慢性病管理 pilot study，目標是探索多模態臨床資料是否能支援慢性病患者的認知風險早期篩檢。作品重點不是宣稱 AI 可取代醫師診斷，而是將模型設計成臨床決策支援流程：輸出認知風險訊號、估計預測不確定性、提供可解釋的關鍵因子，並將高風險或低信心個案導向人工審核。
 
 ## Core skills shown:
-Clinical AI //
+Clinical AI 
+
 Multimodal data preprocessing
+
 Tabular modeling
+
 Image representation learning
+
 Autoencoder feature extraction
+
 Model robustness analysis
+
 SHAP explainability
+
 Uncertainty-aware decision rules
+
 Human-in-the-loop triage
+
 Medical AI ethics
 
 ## Structure
 Risk-Aware Clinical AI Screening System
+
 ├── 1. Background
+
 │   └── Why cognitive-risk screening matters
+
 │
+
 ├── 2. Dataset
+
 │   └── Multimodal data: tabular clinical data + face/tongue images + cognitive scores
+
 │
+
 ├── 3. Data Pipeline
+
 │   ├── image preprocessing
+
 │   ├── tabular cleaning
+
 │   ├── variable filtering
+
 │   └── correlation-based feature grouping
+
 │
+
 ├── 4. Modeling
+
 │   ├── tabular → MoCA prediction
+
 │   ├── tongue image → physiological indicators
+
 │   └── model comparison
+
 │
+
 ├── 5. Uncertainty & Risk Layer
+
 │   ├── threshold risk
+
 │   ├── bootstrap CI
+
 │   ├── model disagreement
+
 │   └── human review policy
+
 │
+
 ├── 6. Explainability
+
 │   ├── SHAP
+
 │   ├── key predictors
+
 │   └── clinical interpretation
+
 │
+
 ├── 7. Demo
+
 │   └── de-identified / synthetic patient risk dashboard
+
 │
+
 └── 8. Limitations
+
     ├── small sample size
+    
     ├── cross-sectional design
+    
     ├── no diagnosis replacement
+    
     └── requires prospective validation
+    
