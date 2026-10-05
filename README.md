@@ -16,7 +16,7 @@ The long-term application is a **two-stage prediction system**: two models estim
 | --- | --- |
 | **Artificial Intelligence-Assisted Facial Medical Inspection** | The broader clinical AI project, including multimodal data collection, image preprocessing, and physiological modeling in collaboration with National Taiwan University Hospital. |
 | **Master's thesis — Physiological Predictors of Cognitive Functions in Patients with Chronic Diseases** | A branch of the broader project: tabular physiological/psychological predictors of MoCA, using best subset regression, Lasso, neural networks, SHAP, and exploratory mediation analysis. NTU, 2025. [Thesis DOI](https://doi.org/10.6342/NTU202503365). |
-| **This repository** | A public engineering reconstruction and the development plan for integrating image-derived biomarkers, MoCA prediction, and human-review support. The repository name remains Risk-Aware_Clinical_AI_Screening_System_for_Cognitive_Function. |
+| **This repository** | A public engineering reconstruction and the development plan for integrating image-derived biomarkers, MoCA prediction, and human-review support.|
 | **[multimodal-cognition-repro-2025](https://github.com/yutungamelie/multimodal-cognition-repro-2025)** | Companion research repository for thesis analyses and figure/table reproduction. Access may be restricted; its data and trained artifacts are not bundled here. |
 
 The project name is **not** the thesis title. Research results below belong to the original study, not to the reconstructed public modules or the proposed three-model system.
